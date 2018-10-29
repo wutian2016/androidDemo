@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.tianrui.tcpapplication.layout.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.example.tianrui.tcpapplication.layout.TitleLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e1dfdf"
+        android:paddingStart="10dp"
+
+        android:paddingRight="0dp"
+        android:text="开关"
+        android:textColor="@color/text"></TextView>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/textBG"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/switch_onoff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:textSize="8pt"
+            android:text="蓝牙" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:background="#e1dfdf"
+        android:textColor="@color/text"
+        android:text="已配对设备">
+    </TextView>
+    <ListView
+        android:id="@+id/list_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"></ListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="可用设备"
+        android:textSize="8pt"
+        android:textColor="@color/text"
+        android:background="#e1dfdf">
+    </TextView>
+    <ListView
+        android:id="@+id/list_unconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+
+</LinearLayout>

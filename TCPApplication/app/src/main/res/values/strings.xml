@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TCPApplication</string>
+    <string name="tcp_client">TCP Client</string>
+    <string name="tcp_server">TCP Server</string>
+    <string name="udp_client">UDP Client</string>
+    <string name="udp_server">UDP Server</string>
+</resources>
